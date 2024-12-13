@@ -1,0 +1,55 @@
+.Navbar{
+    display: flex;
+    padding: 0.5% 0%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #161313;
+    color: #fff;
+
+    @media only screen and (max-width: 600px) {
+        padding: 3.5% 0%;
+    }
+
+        .nav-text{
+            font-family: "Old Standard TT", serif;
+            font-size: 1.5em;
+            font-weight: 400;
+            text-align: center;
+            @media only screen and (max-width: 600px) {
+                font-size: 1rem;
+            }
+        }
+
+        div img{
+            margin-bottom:  -50%;
+            width: 211.419px;
+            filter: drop-shadow(1px 1px 6px #fff);
+            transition: 0.3s all;
+
+                &:hover{
+                    filter: drop-shadow(2px 2px 10px #fff);
+                    transform: scale(1.1);
+                }
+
+                @media only screen and (max-width: 600px) {
+                    width: 100px;
+                    margin-bottom: auto;
+                }
+        }
+        div a{
+            color: #fff;
+            text-decoration: none;
+                i{
+                    font-size: 2em;
+                    padding: 10px;
+                    transition: 0.3s all;
+                        &:hover{
+                            transform: scale(1.2);
+                            filter: drop-shadow(1px 1px 4px #fff);
+                        }
+                        @media only screen and (max-width: 600px) {
+                            font-size: 1.3em;
+                        }
+                }
+        }
+}

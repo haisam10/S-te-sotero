@@ -1,0 +1,33 @@
+.popular-head-text{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 7%;
+}
+.PopularItem{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+        div{
+            border: 1px solid #000;
+            padding: 15px 15px 35px 15px;;
+            margin: 10px;
+                img{
+                    width: 21rem;
+                    object-fit: cover;
+                }
+                p{
+                    font-family: "Old Standard TT", serif;
+                    font-size: 2rem;
+                    text-transform: capitalize;
+                    color: #a68671;
+                }
+                span{
+                    color: #000;
+                    font-weight: bold;
+                }
+        }
+}
+
