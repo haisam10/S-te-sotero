@@ -6,24 +6,31 @@ import Pic3 from '../../Image/pic-3.jpeg'
 function PopularItem() {
   return (
     <>
-    <h2 className='popular-head-text'>Popular Item</h2>
+    <div className='pop-bg-color'>
+       <h2 className='popular-head-text'>Popular Item <i class="fa-solid fa-fire"></i></h2>
     <div className='PopularItem'>
       <div>
         <img src={Pic1} alt="" srcset="" />
-        <p>name jani nah</p>
-        <span>Price: 10 ৳</span>
+        <p>S.S Special Chowmein</p>
+        <span>Price: 300 ৳ | 1:2 </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <span>Price: 550 ৳ | 1:4 </span><br /><br />
+        <i class="fa-solid fa-fire"> hot sale </i>
       </div>
       <div>
         <img src={Pic2} alt="" srcset="" />
-        <p>name jani nah</p>
-        <span>Price: 10 ৳</span>
+        <p>Express Platter</p>
+        <span>Price: 320 ৳</span><br /><br />
+        <i class="fa-solid fa-fire"> hot sale </i>
       </div>
       <div>
         <img src={Pic3} alt="" srcset="" />
-        <p>name jani nah</p>
-        <span>Price: 10 ৳</span>
+        <p>Mexican hot pizza 12"</p>
+        <span>Price: 800 ৳</span><br /><br />
+        <i class="fa-solid fa-fire"> hot sale </i>
       </div>
+    </div> 
     </div>
+  
     </>
   )
 }

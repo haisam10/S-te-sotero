@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.NotiButton{
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: orange;
+  margin: 0;
+  padding: 12px;
+  border: none;
+  padding: 16px;
+  border-radius: 25px;
+}

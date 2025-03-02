@@ -1,3 +1,4 @@
+.gamil{text-transform:lowercase !important;}
 .Footer{
     background: url(../../Image/footer-bg.png);
     background-position: center;
@@ -56,5 +57,23 @@
                 }
             }
         }
+    }
+}
+
+.Mini-Footer{
+    background-color: #161313;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+    a{
+        color: #fff;
+        p{
+            padding-bottom: 5px;
+            margin: 0;
+        }
+    }
+    p{
+        margin: 0;
     }
 }

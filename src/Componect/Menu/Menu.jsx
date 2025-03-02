@@ -13,7 +13,7 @@ function Menu() {
   return (
     <>
     <div className='Menu'>
-      <p className='Menu-head-text'>Our Menu</p>
+      <p className='Menu-head-text'>Our Menu <i class="fa-solid fa-utensils"></i> </p>
     <div className='Menu-image'>
         <img src={Menu1} alt="Error: 0x80004005"/>
         <img src={Menu2} alt="Error: 0x80004005"/>

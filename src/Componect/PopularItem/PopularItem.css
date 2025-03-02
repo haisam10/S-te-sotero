@@ -1,15 +1,20 @@
+.pop-bg-color{
+    background-color: #fff;
+}
 .popular-head-text{
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
     font-weight: 300;
     margin-top: 7%;
+    padding-top: 5%;
 }
 .PopularItem{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10%;
         div{
             border: 1px solid #000;
             padding: 15px 15px 35px 15px;;
@@ -27,6 +32,9 @@
                 span{
                     color: #000;
                     font-weight: bold;
+                }
+                i{
+                    color: red;
                 }
         }
 }

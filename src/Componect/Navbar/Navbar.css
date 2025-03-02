@@ -23,6 +23,8 @@
         div img{
             margin-bottom:  -50%;
             width: 211.419px;
+            margin-right: 20px;
+
             filter: drop-shadow(1px 1px 6px #fff);
             transition: 0.3s all;
 
@@ -50,6 +52,12 @@
                         @media only screen and (max-width: 600px) {
                             font-size: 1.3em;
                         }
+                }
+        }
+        .nav-logo{
+            display: flex;
+                @media only screen and (max-width: 600px) {
+                    flex-direction: column;
                 }
         }
 }
